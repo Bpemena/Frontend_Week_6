@@ -1,0 +1,25 @@
+.signup.page
+	form(name='signin' id='signin').signin
+		.signin__title SIGN IN
+		input(type='email' name='signin_email' form='signin' placeholder='Your Email..' required).signup__email
+		input(type='password' name='signin_password' form='signin' placeholder='Your password..' required).signup__password
+		input(type='submit' name='signin_submit' form='signin' value='SIGN IN').signin__submit
+		a(href='#').signin__link
+			|Forgot your Password 
+			i.fas.fa-arrow-right
+	form(name='register' id='register').register
+		.signin__title REGISTER
+		input(type='email' name='register_email' form='register' placeholder='Your Email..' required).signup__email
+		input(type='password' name='register_password' form='register' placeholder='Your password..' required).signup__password
+		input(type='password' name='register_password' form='register' placeholder='Confirm password..' required).signup__password
+		label(for='register_checkbox').checkbox
+			input(type='checkbox')
+			span.checkbox__btn
+			span.checkbox__text Sign up for exclusive updates, discounts, new arrivals, contests, and more!
+		input(type='submit' name='register_submit' form='register' value='CREATE ACCOUNT').register__submit
+		.register__text
+			div
+				|By clicking ‘Create Account’, you agree to our 
+				a(href='#').register__link
+					|Privacy Policy 
+					i.fas.fa-arrow-right

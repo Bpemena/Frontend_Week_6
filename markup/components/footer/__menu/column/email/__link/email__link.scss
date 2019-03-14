@@ -1,0 +1,8 @@
+.email__link {
+	text-decoration: none;
+	color: #727272;
+	transition: color 0.2s;
+	&:hover {
+		color: #00c8c8;
+	}
+}

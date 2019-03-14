@@ -1,0 +1,10 @@
+.register__link {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'RobotoRegular';
+	font-size: 15px;
+	color: rgb(0, 200, 200);
+	&:hover {
+		text-decoration: underline;
+	}
+}

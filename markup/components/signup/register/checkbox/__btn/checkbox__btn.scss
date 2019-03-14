@@ -1,0 +1,19 @@
+.checkbox__btn {
+	position: relative;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	border: solid 1px rgb(231, 231, 231);
+	margin-right: 15px;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 2px;
+		bottom: 2px;
+		right: 2px;
+		left: 2px;
+		background-color: #8e8c8c;
+		transform: scale(0);
+		transition: 0.3s;
+	}
+}

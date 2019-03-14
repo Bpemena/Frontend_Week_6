@@ -1,0 +1,10 @@
+.item__text {
+	position: absolute;
+	top: 15px;
+	left: 16px;
+	font-family: 'MontserratLight';
+	font-size: 21px;
+	text-transform: uppercase;
+	opacity: 0;
+	transition: opacity linear 0.3s;
+}

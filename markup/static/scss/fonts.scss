@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'ProximaNovaBold';
+	src: url('../fonts/ProximaNova-Bold/ProximaNova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+		url('../fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProximaNovaLight';
+	src: url('../fonts/ProximaNova-Light/ProximaNova-Light.eot');
+	src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+		url('../fonts/ProximaNova-Light/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Light/ProximaNova-Light.woff') format('woff'),
+		url('../fonts/ProximaNova-Light/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MontserratLight';
+	src: url('../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Light/Montserrat-Light.woff') format('woff'),
+		url('../fonts/Montserrat-Light/Montserrat-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratBold';
+	src: url('../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
+		url('../fonts/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'MontserratRegular';
+	src: url('../fonts/Montserrat-Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('../fonts/Roboto-Regular/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff'),
+		url('../fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'RobotoBlack';
+	src: url('../fonts/Roboto-Black/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Roboto-Black/Roboto-Black.woff') format('woff'),
+		url('../fonts/Roboto-Black/Roboto-Black.ttf') format('truetype');
+}

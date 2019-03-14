@@ -1,0 +1,11 @@
+.signup__email {
+	width: 100%;
+	height: 44px;
+	border: solid 1px rgb(231, 231, 231);
+	padding-left: 10px;
+	font-family: 'MontserratLight';
+	font-size: 15px;
+	&--error {
+		border: solid 1px rgb(187, 84, 101);
+	}
+}

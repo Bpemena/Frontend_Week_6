@@ -1,0 +1,11 @@
+.somelookbook__text {
+	font-family: 'RobotoRegular';
+	font-size: 15px;
+	color: #8e8c8c;
+	width: 335px;
+	line-height: 1.4;
+	margin-top: 10px;
+	&--width {
+		width: 505px;
+	}
+}

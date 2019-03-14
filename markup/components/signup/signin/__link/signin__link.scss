@@ -1,0 +1,14 @@
+.signin__link {
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	font-family: 'RobotoRegular';
+	font-size: 15px;
+	color: rgb(0, 200, 200);
+	height: 63px;
+	line-height: 63px;
+	margin-top: 30px;
+	&:hover {
+		text-decoration: underline;
+	}
+}

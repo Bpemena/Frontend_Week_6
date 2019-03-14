@@ -1,0 +1,11 @@
+.column__link {
+	text-decoration: none;
+	font-family: 'MontserratLight';
+	color: #727272;
+	height: 30px;
+	line-height: 30px;
+	transition: color 0.2s;
+	&:hover {
+		color: #00c8c8;
+	}
+}

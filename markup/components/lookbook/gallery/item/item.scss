@@ -1,0 +1,15 @@
+.item {
+	position: relative;
+	width: 420px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.14);
+	margin-bottom: 30px;
+	&:hover {
+		cursor: pointer;
+		.item__info, .item__copy, .item__text {
+			opacity: 1;
+		}
+	}
+}

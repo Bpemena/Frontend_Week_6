@@ -1,0 +1,14 @@
+.somelookbook__win {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: right;
+	text-transform: uppercase;
+	font-family: 'MontserratBold';
+	font-size: 72px;
+	color: #00c8c8;
+	span {
+		font-size: 200px;
+	}
+}

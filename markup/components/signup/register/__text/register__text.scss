@@ -1,0 +1,16 @@
+.register__text {
+	width: 225px;
+	height: 63px;
+	float: right;
+	margin-top: 30px;
+	display: table;
+	font-family: 'RobotoRegular';
+	font-size: 15px;
+	color: #8e8c8c;
+	line-height: 1.4;
+	div {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: right;
+	}
+}
