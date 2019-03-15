@@ -1,0 +1,19 @@
+.data__link {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 15px;
+	margin-right: 50px;
+	height: 52px;
+	line-height: 52px;
+	font-family: 'MontserratRegular';
+	font-size: 16px;
+	font-weight: bold;
+	color: #575153;
+	transition: all 0.4s;
+	&:hover {
+		background-color: #333333;
+		color: #fff;
+	}
+}

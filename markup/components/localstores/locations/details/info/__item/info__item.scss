@@ -1,0 +1,10 @@
+.info__item {
+	margin-top: 10px;
+	i {	
+		width: 14px;
+		margin-right: 10px;
+	}
+	.fa-phone, .fa-link {
+		transform: scale(-1,1);
+	}
+}

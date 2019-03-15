@@ -1,0 +1,17 @@
+.info__link {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background-color: rgb(114, 114, 114);
+	border-radius: 50%;
+	margin-right: 10px;
+	transition: all 0.4s linear;
+	&:hover {
+		color: rgb(114, 114, 114);
+		background-color: #fff;
+	}
+}

@@ -1,0 +1,10 @@
+.brand__link {
+	text-decoration: none;
+	color: #00c8c8;
+	&:hover i {
+		transform: translateX(5px);
+	}
+	i {
+		transition: all 0.4s;
+	}
+}

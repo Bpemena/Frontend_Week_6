@@ -1,0 +1,8 @@
+.info__channel {
+	text-decoration: none;
+	color: inherit;
+	transition: color 0.2s linear;
+	&:hover {
+		color: #00c8c8;
+	}
+}
