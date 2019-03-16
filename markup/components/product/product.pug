@@ -1,7 +1,76 @@
 .product
-	.product__contect
+	.product__content
+		.product__slider
+			img(src='%=static=%img/assets/product/img.png' alt='default size').product__slide.product__slide--curry
+			img(src='%=static=%img/assets/product/zoomimg.png' alt='zoom').product__slide.
+			.product__controls
+				a(href='#').product__prev
+					i.fas.fa-angle-left
+				a(href='#').product__next
+					i.fas.fa-angle-right
 		.product__column
-			
+			.product__name Ave classic sweatshirt
+			.product__top
+				.product__stars
+					i.fas.fa-star.product__star
+					i.fas.fa-star.product__star
+					i.fas.fa-star.product__star
+					i.fas.fa-star.product__star
+					i.fas.fa-star.product__star
+				.product__review 3 Review(s)
+				div |
+				a(href='#').product__addreview Add a Review
+				div |
+				.product__share Share:
+				a(href='#').product__link
+					i.fab.fa-facebook-f
+				a(href='#').product__link
+					i.fab.fa-twitter
+				a(href='#').product__link
+					i.fab.fa-google-plus-g
+				a(href='#').product__link
+					i.fab.fa-pinterest-p
+				a(href='#').product__link
+					i.fab.fa-instagram
+				a(href='#').product__link
+					i.far.fa-envelope
+			.product__price
+				sup 
+					small £
+				del 107
+				|&nbsp;&nbsp;
+				sup
+					small £
+				|89.99
+			.product__availability
+				|AVAILABILITY: 
+				span In stock
+			.product__code
+				|PRODUCT CODE: 
+				span #499577
+			.product__tags
+				|TAGS: 
+				span Classic, Casual,V-neck, Loose
+			.product__text
+				|Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. 
+				|Donec pulvinar tempor lorem a pretium justo interdum.
+			ul.product__ul
+				li.product__li Elasticated cuffs
+				li.product__li Casual fit
+				li.product__li 100% Cotton
+				li.product__li Free shipping 4 days delivery
+			.product__buttons
+				a(href='#').product__cart
+					i.fas.fa-shopping-cart
+					|&nbsp;
+					|add to cart
+				a(href='#').product__lookbook 
+					i.far.fa-heart
+					|&nbsp;
+					|add to lookbook
+			a(href='#').product__compare
+
+				|add to compare
 	.data
 		.data__links
 			a(href='#').data__link Description

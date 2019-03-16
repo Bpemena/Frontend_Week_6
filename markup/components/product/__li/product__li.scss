@@ -1,0 +1,8 @@
+.product__li {
+	list-style-type: none;
+	line-height: 1.7;
+	&:before {
+		content: '•';
+		margin-right: 10px;
+	}
+}

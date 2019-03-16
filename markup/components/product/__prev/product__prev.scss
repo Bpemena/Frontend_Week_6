@@ -1,0 +1,13 @@
+.product__prev {
+	display: inline-block;
+	width: 45px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	color: #575153;
+	transition: all 0.4s;
+	&:hover {
+		color: #fff;
+		background-color: rgb(0, 200, 200);
+	}
+}

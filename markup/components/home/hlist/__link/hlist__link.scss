@@ -1,0 +1,13 @@
+.hlist__link {
+	text-decoration: none;
+	color: #727272;
+	font-family: 'MontserratRegular';
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-right: 40px;
+	transition: color 0.3s;
+	&:hover {
+		color: #00c8c8;
+	}
+}

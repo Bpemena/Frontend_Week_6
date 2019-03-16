@@ -1,0 +1,8 @@
+.product__addreview {
+	text-decoration: none;
+	color: #8c8c8c;
+	transition: color 0.3s;
+	&:hover {
+		color: #00c8c8;
+	}
+}

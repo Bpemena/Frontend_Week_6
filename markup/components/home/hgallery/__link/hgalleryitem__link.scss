@@ -1,0 +1,14 @@
+.hgalleryitem__link {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #727272;
+	color: #fff;
+	border-radius: 50%;
+	margin: 0 5px;
+	transition: all 0.3s;
+	&:hover {
+		background-color: #00c8c8;
+	}
+}

@@ -1,0 +1,13 @@
+.hgalleryitem__text {
+	position: absolute;
+	top: 15px;
+	left: 16px;
+	font-family: 'MontserratLight';
+	font-size: 21px;
+	text-transform: uppercase;
+	sup {
+		font-family: 'ProximanovaLight';
+		vertical-align: top;
+		top: 10px;
+	}
+}

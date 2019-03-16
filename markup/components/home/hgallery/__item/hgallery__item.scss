@@ -1,0 +1,18 @@
+.hgallery__item {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.14);
+	width: 420px;
+	height: 500px;
+	margin-bottom: 30px;
+	&--width {
+		width: 100%;
+	}
+	&:hover {
+		cursor: pointer;
+		.hgalleryitem__info{
+			opacity: 1;
+		}
+	}
+}

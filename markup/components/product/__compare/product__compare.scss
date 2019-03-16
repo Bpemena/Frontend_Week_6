@@ -1,0 +1,19 @@
+.product__compare {
+	margin-top: auto;
+	text-decoration: none;
+	align-self: flex-start;
+	height: 40px;
+	line-height: 40px;
+	letter-spacing: 3px;
+	color: #454647;
+	font-family: 'MontserratRegular';
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.3s;
+	&:hover {
+		color: #fff;
+		border-color: transparent;
+	}
+}
