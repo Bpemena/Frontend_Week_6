@@ -1,5 +1,30 @@
 .home {
-	width: 1770px;
+	max-width: 1770px;
 	margin: 60px auto;
 	border-top: 1px solid rgb(238, 238, 238);
+}
+@media only screen and (max-width: 1799px) {
+	.home {
+		padding: 0 5px;
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.home {
+		margin: 50px auto;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.home {
+		margin: 40px auto;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.home {
+		margin: 30px auto;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.home {
+		margin: 20px auto;
+	}
 }

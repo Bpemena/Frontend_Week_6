@@ -10,3 +10,27 @@
 	color: #fff;
 	text-transform: uppercase;
 }
+@media only screen and (max-width: 1279px) {
+	.award {
+		width: 48%;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.award {
+		font-size: 24px;
+		height: 140px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.award {
+		font-size: 18px;
+		height: 100px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.award {
+		width: 49.5%;
+		font-size: 12px;
+		height: 50px;
+	}
+}

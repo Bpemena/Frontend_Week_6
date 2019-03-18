@@ -8,3 +8,14 @@
 	font-size: 13px;
 	color: #999999;
 }
+@media only screen and (max-width: 599px) {
+	.copyright__content {
+		flex-direction: column;
+		justify-content: space-around;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.copyright__content {
+		font-size: 10px;
+	}
+}

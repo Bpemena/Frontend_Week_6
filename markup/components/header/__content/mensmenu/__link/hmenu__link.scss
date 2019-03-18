@@ -1,0 +1,13 @@
+.hmenu__link {
+	text-decoration: none;
+	z-index: 20;
+	color: #727272;
+	font-family: 'MontserratLight';
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	transition: color 0.3s;
+	&:hover {
+		color: #00c8c8;
+	}
+}

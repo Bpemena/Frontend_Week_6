@@ -3,3 +3,8 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+@media only screen and (max-width: 1023px) {
+	.product__content {
+		justify-content: center;
+	}
+}

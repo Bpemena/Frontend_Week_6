@@ -2,3 +2,28 @@
 	width: 1387px;
 	height: 530px;
 }
+@media only screen and (max-width: 2049px) {
+	.details__map {
+		width: 1920px - 663px -30px;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.details__map {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.details__map {
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.details__map {
+		height: 360px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.details__map {
+		height: 300px;
+	}
+}

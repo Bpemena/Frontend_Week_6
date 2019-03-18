@@ -1,0 +1,10 @@
+.header__bg {
+	background-repeat: no-repeat;
+	background-position: bottom;
+	&--img1 {
+		background-image: url('%=static=%assets/header/hb1.png');
+	}
+	&--img2 {
+		background-image: url('%=static=%assets/header/hb2.png');
+	}
+}

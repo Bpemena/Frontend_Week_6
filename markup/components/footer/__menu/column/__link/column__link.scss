@@ -10,3 +10,8 @@
 		color: #00c8c8;
 	}
 }
+@media only screen and (max-width: 767px) {
+	.column__link {
+		align-self: center;
+	}
+}

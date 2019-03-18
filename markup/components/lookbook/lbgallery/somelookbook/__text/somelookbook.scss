@@ -9,3 +9,38 @@
 		width: 505px;
 	}
 }
+@media only screen and (max-width: 1799px) {
+	.somelookbook__text {
+		width: 270px;
+		br:first-of-type {
+			display: none;
+		}
+		&--width {
+			width: 445px;
+		}
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.somelookbook__text {
+		&--width {
+			width: 405px;
+		}
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.somelookbook__text {
+		font-size: 13px;
+		&--width {
+			width: 405px;
+		}
+	}
+}
+@media only screen and (max-width: 479px) {
+	.somelookbook__text {
+		width: 100%;
+		font-size: 13px;
+		&--width {
+			width: 100%;
+		}
+	}
+}

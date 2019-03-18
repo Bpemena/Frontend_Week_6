@@ -1,0 +1,25 @@
+.topbar__cart {
+	text-decoration: none;
+	color: #777777;
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	padding: 0px 20px;
+	transition: all 0.3s;
+	margin-right: 70px;
+	&:hover {
+		color: #fff;
+		background-color: #00c8c8;
+	}
+	i:nth-of-type(1) {
+		margin-right: 15px;
+	}
+	i:nth-of-type(2) {
+		margin-left: 15px;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.topbar__cart {
+		margin-right: 0px;
+	}
+}

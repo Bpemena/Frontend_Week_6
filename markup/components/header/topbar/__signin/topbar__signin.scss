@@ -1,0 +1,18 @@
+.topbar__signin {
+	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	text-decoration: none;
+	color: #777777;
+	padding: 0px 20px;
+	transition: all 0.3s;
+	&:hover {
+		color: #fff;
+		background-color: #00c8c8;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.topbar__signin {
+		padding: 0 10px;
+	}
+}

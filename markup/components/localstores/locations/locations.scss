@@ -1,7 +1,18 @@
 .locations {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 60px auto;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+@media only screen and (max-width: 1279px) {
+	.locations {
+		padding: 0 5px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.locations {
+		margin-top: 30px;
+		margin-bottom: 0px;
+	}
 }

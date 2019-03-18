@@ -8,3 +8,13 @@
 		color: #00c8c8;
 	}
 }
+@media only screen and (max-width: 1023px) {
+	.brand__text {
+		margin-top: 5px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.brand__text {
+		font-size: 13px;
+	}
+}

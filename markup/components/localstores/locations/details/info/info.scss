@@ -1,10 +1,24 @@
 .info {
 	width: 663px;
-	height: 530px;
-	background-color: #f8f8f8;
 	font-size: 14px;
 	padding: 40px 75px 0px 40px;
 	font-family: 'MontserratLight';
 	font-size: 14px;
 	color: #8e8c8c;
+}
+@media only screen and (max-width: 1279px) {
+	.info {
+		padding-bottom: 10px;
+		position: relative;
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.info {
+		padding: 10px 5px;
+		position: relative;
+		margin: 0 auto;
+		width: 100%;
+	}
 }

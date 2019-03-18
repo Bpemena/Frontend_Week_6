@@ -21,3 +21,10 @@
 		border-color: transparent;
 	}
 }
+@media only screen and (max-width: 479px) {
+	.view__link {
+		height: 40px;
+		line-height: 40px;
+		font-size: 13px;
+	}
+}

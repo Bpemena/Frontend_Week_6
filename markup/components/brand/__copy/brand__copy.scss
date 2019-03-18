@@ -1,0 +1,9 @@
+.brand__copy {
+	display: none;
+}
+@media only screen and (max-width: 1023px) {
+	.brand__copy {
+		display: block;
+		margin-bottom: 20px;
+	}
+}

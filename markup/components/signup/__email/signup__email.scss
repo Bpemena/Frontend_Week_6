@@ -9,3 +9,9 @@
 		border: solid 1px rgb(187, 84, 101);
 	}
 }
+@media only screen and (max-width: 599px) {
+	.signup__email {
+		font-size: 13px;
+		height: 30px;
+	}
+}

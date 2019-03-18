@@ -1,0 +1,13 @@
+.intro__text {
+	text-transform: uppercase;
+	font-family: 'MontserratRegular';
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 30px;
+}
+@media only screen and (max-width: 599px) {
+	.intro__text {
+		font-size: 24px;
+	}
+}

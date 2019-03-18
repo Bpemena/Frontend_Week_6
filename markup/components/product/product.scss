@@ -1,4 +1,25 @@
 .product {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
+	padding: 60px 0px 125px;
+}
+@media only screen and (max-width: 1279px) {
+	.product {
+		padding: 30px 5px 60px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.product {
+		padding: 30px 5px 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.product {
+		padding: 30px 5px 40px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.product {
+		padding: 30px 5px 30px;
+	}
 }

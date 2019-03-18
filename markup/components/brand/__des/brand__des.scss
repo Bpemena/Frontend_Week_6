@@ -6,3 +6,13 @@
 	text-transform: uppercase;
 	margin-top: 25px;
 }
+@media only screen and (max-width: 1023px) {
+	.brand__des {
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.brand__des {
+		font-size: 11px;
+	}
+}

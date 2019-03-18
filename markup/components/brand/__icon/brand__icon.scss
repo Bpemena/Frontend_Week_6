@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1023px) {
+	.brand__icon {
+		width: 100px;
+		height: 80px;
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.brand__icon {
+		width: 80px;
+		height: 60px;
+		margin: 0 10px;
+	}
+}

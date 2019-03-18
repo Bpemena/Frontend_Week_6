@@ -6,3 +6,13 @@
 	color: #727272;
 	margin-top: 10px;
 }
+@media only screen and (max-width: 1599px) {
+	.somelookbook__price {
+		margin-top: 5px;
+	}
+}
+@media only screen and (max-width: 1439px) {
+	.somelookbook__price {
+		font-size: 11px;
+	}
+}

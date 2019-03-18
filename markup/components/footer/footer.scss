@@ -2,3 +2,23 @@
 	background-color: #f8f8f8;
 	padding-top: 40px;
 }
+@media only screen and (max-width: 1023px) {
+	.footer {
+		padding-top: 25px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.footer {
+		padding-top: 20px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.footer {
+		padding-top: 15px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.footer {
+		padding-top: 10px;
+	}
+}

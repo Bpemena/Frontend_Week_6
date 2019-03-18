@@ -4,3 +4,13 @@
 	line-height: 1.4;
 	color: #8e8c8c;
 }
+@media only screen and (max-width: 599px) {
+	.description__text {
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.description__text {
+		font-size: 11px;
+	}
+}

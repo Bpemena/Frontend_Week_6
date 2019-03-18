@@ -12,3 +12,34 @@
 		font-size: 200px;
 	}
 }
+@media only screen and (max-width: 1779px) {
+	.somelookbook__win {
+		font-size: 66px;
+		span {
+			font-size: 150px;
+		}
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.somelookbook__win {
+		font-size: 60px;
+	}
+}
+@media only screen and (max-width: 1359px) {
+	.somelookbook__win {
+		font-size: 50px;
+		span {
+			font-size: 100px;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.somelookbook__win {
+		top: 100%;
+		transform: translateY(-100%);
+		font-size: 30px;
+		span {
+			font-size: 60px;
+		}
+	}
+}

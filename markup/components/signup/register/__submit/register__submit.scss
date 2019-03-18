@@ -16,3 +16,29 @@
 		cursor: pointer;
 	}
 }
+@media only screen and (max-width: 1279px) {
+	.register__submit {
+		width: 230px;
+	}
+}
+@media only screen and (max-width: 1023PX) {
+	.register__submit {
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.register__submit {
+		height: 40px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.register__submit {
+		margin-top: 15px;
+		height: 30px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.register__submit {
+		width: 100%;
+	}
+}

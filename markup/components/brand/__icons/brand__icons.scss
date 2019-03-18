@@ -4,3 +4,14 @@
 	justify-content: space-between;
 	margin-top: 70px;
 }
+@media only screen and (max-width: 1279px) {
+	.brand__icons {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.brand__icons {
+		justify-content: center;
+		margin-top: 10px;
+	}
+}

@@ -5,3 +5,9 @@
 	width: 100%;
 	padding: 60px 0px 125px;
 }
+@media only screen and (max-width: 1023px) {
+	.brand__columns {
+		flex-direction: column;
+		padding: 30px 0px;
+	}
+}

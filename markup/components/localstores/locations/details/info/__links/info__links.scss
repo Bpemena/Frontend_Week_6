@@ -1,3 +1,23 @@
 .info__links {
 	margin-top: 60px;
 }
+@media only screen and (max-width: 1279px) {
+	.info__links {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+		margin-top: 0;
+		top: 0;
+		right: 20px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.info__links {
+		position: relative;
+		display: block;
+		height: auto;
+		text-align: center;
+	}
+}

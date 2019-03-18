@@ -1,0 +1,44 @@
+.btn {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	span {
+		position: absolute;
+		width: 30px;
+		height: 5px;
+		top: 50%;
+		left: 50%;
+		margin-top: -2.5px;
+		margin-left: -15px;
+		background-color: #333333;
+		transition: 0.4s;
+		&::before {
+			content: '';
+			position: absolute;
+			width: 30px;
+			height: 5px;
+			top: 50%;
+			left: 50%;
+			margin-top: -2.5px;
+			margin-left: -15px;
+			background-color: #333333;
+			transition: 0.4s;
+			transform: translateY(-10px);
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			width: 30px;
+			height: 5px;
+			top: 50%;
+			left: 50%;
+			margin-top: -2.5px;
+			margin-left: -15px;
+			background-color: #333333;
+			transition: 0.4s;
+			transform: translateY(10px);
+		}
+	}
+}

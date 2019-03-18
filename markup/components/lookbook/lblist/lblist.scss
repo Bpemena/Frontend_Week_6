@@ -2,4 +2,26 @@
 	display: flex;
 	align-items: center;
 	height: 120px;
+	padding: 0 10px;
+}
+@media only screen and (max-width: 1599px) {
+	.lblist {
+		height: 80px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.lblist {
+		height: 60px;
+		justify-content: space-between;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.lblist {
+		height: 50px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.lblist {
+		flex-wrap: wrap;
+	}
 }

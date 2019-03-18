@@ -4,3 +4,13 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+@media only screen and (max-width: 1799px) {
+	.hgallery__column {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.hgallery__column {
+		justify-content: space-around;
+	}
+}

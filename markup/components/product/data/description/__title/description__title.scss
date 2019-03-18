@@ -5,3 +5,14 @@
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
+@media only screen and (max-width: 599px) {
+	.description__title {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.description__title {
+		font-size: 10px;
+		text-align: center;
+	}
+}

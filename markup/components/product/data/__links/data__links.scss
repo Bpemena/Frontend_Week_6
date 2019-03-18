@@ -3,3 +3,9 @@
 	display: flex;
 	background-color: #f8f8f8;
 }
+@media only screen and (max-width: 1023px) {
+	.data__links {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}

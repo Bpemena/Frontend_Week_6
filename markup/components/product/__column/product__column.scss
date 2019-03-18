@@ -4,3 +4,14 @@
 	display: flex;
 	flex-direction: column;
 }
+@media only screen and (max-width: 1279px) {
+	.product__column {
+		width: 49.5%;
+		height: 670px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.product__column {
+		width: 100%;
+	}
+}

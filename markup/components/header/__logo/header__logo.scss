@@ -1,0 +1,17 @@
+.header__logo {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'MontserratRegular';
+	font-size: 24px;
+	font-weight: bold;
+	color: #222222;
+	text-transform: uppercase;
+	span {
+		font-family: 'MontserratBold';
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.header__logo {
+		font-size: 18px;
+	}
+}

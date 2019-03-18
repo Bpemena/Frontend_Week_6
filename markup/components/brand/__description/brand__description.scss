@@ -5,3 +5,27 @@
 		margin-bottom: 60px;
 	}
 }
+@media only screen and (max-width: 1279px) {
+	.brand__description {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.brand__description {
+		width: 49.5%;
+
+		&--margin {
+			display: none;
+		}
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.brand__description {
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.brand__description {
+		width: 100%;
+	}
+}

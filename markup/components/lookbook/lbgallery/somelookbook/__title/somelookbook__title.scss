@@ -9,3 +9,15 @@
 		font-family: 'MontserratBold';
 	}
 }
+@media only screen and (max-width: 1799px) {
+	.somelookbook__title {
+		margin-top: 10px;
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 1439px) {
+	.somelookbook__title {
+		margin-top: 10px;
+		font-size: 24px;
+	}
+}

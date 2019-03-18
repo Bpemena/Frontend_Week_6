@@ -6,3 +6,14 @@
 	font-family: 'MontserratLight';
 	font-size: 14px;
 }
+
+@media only screen and (max-width: 1023px) {
+	.footer__menu {
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.footer__menu {
+		font-size: 12px;
+	}
+}

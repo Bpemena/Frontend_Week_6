@@ -1,0 +1,15 @@
+.topbar__content {
+	max-width: 1170px;
+	height: 45px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'MontserratRegular';
+	font-size: 13px;
+	font-weight: bold;
+}
+@media only screen and (max-width: 599px) {
+	.topbar__content {
+		font-size: 10px;
+	}
+}

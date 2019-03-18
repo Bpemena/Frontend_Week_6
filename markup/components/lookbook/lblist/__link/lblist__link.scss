@@ -11,3 +11,13 @@
 		color: #00c8c8;
 	}
 }
+@media only screen and (max-width: 767px) {
+	.lblist__link {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.lblist__link {
+		font-size: 11px;
+	}
+}

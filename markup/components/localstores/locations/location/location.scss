@@ -2,3 +2,14 @@
 	width: 370px;
 	font-family: 'MontserratRegular';
 }
+@media only screen and (max-width: 1279px) {
+	.location {
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.location {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}

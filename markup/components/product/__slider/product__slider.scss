@@ -4,3 +4,22 @@
 	position: relative;
 	display: flex;
 }
+@media only screen and (max-width: 1279px) {
+	.product__slider {
+		width: 540px;
+		height: 670px;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.product__slider {
+		width: 100%;
+		height: 630px;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.product__slider {
+		height: 480px;
+	}
+}

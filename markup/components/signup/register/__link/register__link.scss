@@ -8,3 +8,8 @@
 		text-decoration: underline;
 	}
 }
+@media only screen and (max-width: 599px) {
+	.register__link {
+		font-size: 13px;
+	}
+}

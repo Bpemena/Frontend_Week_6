@@ -11,3 +11,13 @@
 		color: #00c8c8;
 	}
 }
+@media only screen and (max-width: 1023px) {
+	.hlist__link {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.hlist__link {
+		font-size: 11px;
+	}
+}

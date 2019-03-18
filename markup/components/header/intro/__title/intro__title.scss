@@ -1,0 +1,15 @@
+.intro__title {
+	text-transform: uppercase;
+	font-family: 'MontserratLight';
+	font-size: 48px;
+	font-weight: bold;
+	color: #fff;
+	span {
+		font-family: 'MontserratBold';
+	}
+}
+@media only screen and (max-width: 599px) {
+	.intro__title {
+		font-size: 36px;
+	}
+}

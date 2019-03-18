@@ -18,3 +18,21 @@
 		}
 	}
 }
+@media only screen and (max-width: 1023px) {
+	.checkbox {
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.checkbox {
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.checkbox {
+		input[type="checkbox"] {
+			width: 20px;
+			height: 20px;
+		}
+	}
+}

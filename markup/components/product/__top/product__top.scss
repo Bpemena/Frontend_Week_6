@@ -1,5 +1,6 @@
 .product__top {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	font-family: 'MontserratRegular';
 	font-size: 14px;
@@ -8,4 +9,14 @@
 	color: #989898;
 	margin-top: 25px;
 	margin-bottom: 25px;
+}
+@media only screen and (max-width: 479px) {
+	.product__top{
+		.vl {
+			display: none;
+		}
+		.br {
+			width: 100%;
+		}
+	}
 }

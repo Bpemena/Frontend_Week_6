@@ -10,3 +10,18 @@
 		font-family: 'MontserratBold';
 	}
 }
+@media only screen and (max-width: 1919px) {
+	.view__title {
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.view__title {
+		font-size: 36px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.view__title {
+		font-size: 18px;
+	}
+}

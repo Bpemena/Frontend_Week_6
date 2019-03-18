@@ -18,3 +18,19 @@
 		background-color: #454647;
 	}
 }
+@media only screen and (max-width: 1279px) {
+	.product__lookbook {
+		width: 59.5%;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.product__lookbook {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.product__lookbook {
+		letter-spacing: 0;
+		font-size: 12px;
+	}
+}

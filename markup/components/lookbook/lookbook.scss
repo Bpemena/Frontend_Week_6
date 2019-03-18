@@ -1,5 +1,36 @@
 .lookbook {
-	width: 1770px;
+	max-width: 1770px;
 	margin: 60px auto;
 	border-top: 1px solid rgb(238, 238, 238);
+}
+@media only screen and (max-width: 1799px) {
+	.lookbook {
+		padding: 0 5px;
+		margin: 50px auto;
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.lookbook {
+		margin: 40px auto;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.lookbook {
+		margin: 30px auto;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.lookbook {
+		margin: 30px auto;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.lookbook {
+		margin: 20px auto;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.lookbook {
+		margin: 10px auto;
+	}
 }

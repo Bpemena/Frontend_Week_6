@@ -1,5 +1,12 @@
 .details {
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	margin-bottom: 125px;
+	background-color: #f8f8f8;
+}
+@media only screen and (max-width: 1279px) {
+	.details {
+		margin-bottom: 20px;
+	}
 }

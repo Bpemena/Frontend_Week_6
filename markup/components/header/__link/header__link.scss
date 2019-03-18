@@ -1,0 +1,26 @@
+.header__link {
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'MontserratRegular';
+	font-size: 13px;
+	font-weight: bold;
+	color: #222222;
+	transition: all 0.3s;
+	&:hover {
+		color: #00c8c8;
+	}
+	i {
+		color: #989898;
+		position: absolute;
+		left: 0;
+		bottom: -25px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.header__link {
+		i {
+			bottom: -10px;
+		}
+	}
+}

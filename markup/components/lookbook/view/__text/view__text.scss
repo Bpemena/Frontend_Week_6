@@ -9,3 +9,14 @@
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
+@media only screen and (max-width: 1599px) {
+	.view__text {
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.view__text {
+		margin-top: 100px;
+		font-size: 11px;
+	}
+}

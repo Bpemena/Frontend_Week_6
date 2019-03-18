@@ -1,0 +1,16 @@
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 110px;
+	padding: 0 130px;
+}
+@media only screen and (max-width: 1439px) {
+	.header__content{padding: 0 5px;}
+}
+@media only screen and (max-width: 1023px) {
+	.header__content{
+		flex-wrap: wrap;
+		height: 80px;
+	}
+}

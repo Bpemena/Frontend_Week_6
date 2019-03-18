@@ -1,10 +1,9 @@
 .checkbox__btn {
-	position: relative;
+	position: absolute;
 	display: inline-block;
 	width: 28px;
 	height: 28px;
 	border: solid 1px rgb(231, 231, 231);
-	margin-right: 15px;
 	&:before {
 		content: '';
 		position: absolute;
@@ -15,5 +14,11 @@
 		background-color: #8e8c8c;
 		transform: scale(0);
 		transition: 0.3s;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.checkbox__btn {
+		width: 20px;
+		height: 20px;
 	}
 }

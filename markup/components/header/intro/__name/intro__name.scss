@@ -1,0 +1,14 @@
+.intro__name {
+	position: absolute;
+	bottom: 300px;
+	font-family: 'MontserratBold';
+	font-size: 450px;
+	color: #575153;
+	text-transform: uppercase;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	span {
+		margin: 0 150px;
+	}
+}

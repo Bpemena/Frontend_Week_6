@@ -2,3 +2,26 @@
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
+@media only screen and (max-width: 1023px) {
+	.address {
+		width: 33%;
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.address {
+		width: 100%;
+		margin-bottom: 10px;
+		br {
+			display: none;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.address {
+		margin-bottom: 5px;
+		br {
+			display: block;
+		}
+	}
+}
