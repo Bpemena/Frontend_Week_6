@@ -1,0 +1,79 @@
+.introhome__title {
+	position: absolute;
+	font-family: 'MontserratBold';
+	font-size: 450px;
+	color: #575153;
+	text-transform: uppercase;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -65%);
+	span {
+		margin: 0 140px;
+	}
+}
+@media only screen and (max-width: 1919px) {
+	.introhome__title {
+		span {
+			margin: 0 100px;
+		}
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.introhome__title {
+		span {
+			margin: 0 70px;
+		}
+	}
+}
+@media only screen and (max-width: 1439px) {
+	.introhome__title {
+		span {
+			margin: 0 60px;
+		}
+	}
+}
+@media only screen and (max-width: 1359px) {
+	.introhome__title {
+		span {
+			margin: 0 50px;
+		}
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.introhome__title {
+		font-size: 300px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.introhome__title {
+		font-size: 200px;
+		span {
+			margin: 0 30px;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.introhome__title {
+		font-size: 170px;
+		span {
+			margin: 0 20px;
+		}
+	}
+}
+@media only screen and (max-width: 599px) {
+	.introhome__title {
+		font-size: 120px;
+		span {
+			margin: 0 20px;
+		}
+	}
+}
+@media only screen and (max-width: 479px) {
+	.introhome__title {
+		font-size: 70px;
+		transform: translate(-50%, -90%);
+		span {
+			margin: 0 10px;
+		}
+	}
+}

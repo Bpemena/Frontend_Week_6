@@ -1,0 +1,14 @@
+.select__title {
+	font-family: 'MontserratRegular';
+	font-size: 13px;
+	font-weight: bold;
+	color: #575153;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+@media only screen and (max-width: 479px) {
+	.select__title {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}

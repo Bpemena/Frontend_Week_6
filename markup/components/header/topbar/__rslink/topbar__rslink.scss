@@ -2,3 +2,8 @@
 	margin-left: auto;
 	margin-right: 30px;
 }
+@media only screen and (max-width: 599px) {
+	.topbar__rslink {
+		margin: 0 auto;
+	}
+}

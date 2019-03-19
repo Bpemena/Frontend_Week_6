@@ -1,11 +1,15 @@
 header.header
 	.topbar
 		.topbar__content
-			a(href='#').topbar__currency
+			.topbar__currency
 				|Currency : 
-				span GBP
-				| 
-				i.fas.fa-angle-down
+				div
+					select.select__currency
+						option GBP
+						option KZT
+						option USD
+						option EUR
+					i.fas.fa-angle-down
 			.topbar__rslink
 				a(href='#').topbar__register Register
 				a(href='#').topbar__signin Sign In
@@ -13,8 +17,8 @@ header.header
 				i.fas.fa-shopping-cart
 				| empty
 				i.fas.fa-angle-down
-	div(style='background-image: url("%=static=%img/assets/header/bg.png")').header__bg.header__bg--img1
-		div(style='background-color: #fff;').header__content
+	div(style='').header__homebg--img1
+		div(style='background-color: transparent;').header__content
 			a(href='#').header__logo
 				span avenue 
 				|fashion
@@ -25,7 +29,7 @@ header.header
 						.mensmenu
 							.hmenu__menu
 								.hmenu__column
-									.mensmenu__title Casuals
+									.hmenu__title Casuals
 									a(href='#').hmenu__link Jackets
 									a(href='#').hmenu__link Hoodies & Sweatshirts
 									a(href='#').hmenu__link Polo Shirts
@@ -77,8 +81,110 @@ header.header
 				span the 
 				|brand
 			.intro__text company slogan goes here
-			//.intro__name 
-			//	span a
-			//	span v
-			//	span e
-			//.intro__button shop men’s collection
+			.mobile
+				.mobile-in
+					.msearch
+						input(type='text' name='search' placeholder='Search..').msearch__place
+						a(href='#').msearch__icon
+							i.fas.fa-search
+					a(href='#').mobile__link.mmens mens
+						i.fas.fa-angle-down
+					.mmensmenu
+						.mmensmenu-in
+							.hmenu__menu
+								.hmenu__column
+									.hmenu__title Casuals
+									a(href='#').hmenu__link Jackets
+									a(href='#').hmenu__link Hoodies & Sweatshirts
+									a(href='#').hmenu__link Polo Shirts
+									a(href='#').hmenu__link Sportswear
+									a(href='#').hmenu__link Trousers & Chinos
+									a(href='#').hmenu__link T-Shirts
+								.hmenu__column
+									.hmenu__title format
+									a(href='#').hmenu__link Jackets
+									a(href='#').hmenu__link Shirts
+									a(href='#').hmenu__link Suits
+									a(href='#').hmenu__link Trousers
+							.hmenu__banner
+								div autumn sale!
+								div to 50% off
+					a(href='#').mobile__link womens
+						i.fas.fa-angle-down
+					a(href='#').mobile__link the brand
+					a(href='#').mobile__link local stores
+					a(href='#').mobile__link.mbook look book
+						i.fas.fa-angle-down
+					.mbookmenu
+						.mbookmenu-in
+							.hmenu__menu
+								.hmenu__column
+									.hmenu__title our lookbooks
+									a(href='#').hmenu__link Latest Prost(mixed)
+									a(href='#').hmenu__link Men's Lookbook
+									a(href='#').hmenu__link Women's Lookbook
+								.hmenu__column
+									.hmenu__title your lookbook
+									a(href='#').hmenu__link View and Edit
+									a(href='#').hmenu__link Share
+									a(href='#').hmenu__link Delete
+							.hmenu__banner
+								div autumn sale!
+								div to 50% off
+		//.introhome
+		//	.introhome__title
+		//		span a
+		//		span v
+		//		span e
+		//	a(href='#').introhome__link shop men's collection
+		//	.mobile
+		//		.mobile-in
+		//			.msearch
+		//				input(type='text' name='search' placeholder='Search..').msearch__place
+		//				a(href='#').msearch__icon
+		//					i.fas.fa-search
+		//			a(href='#').mobile__link.mmens mens
+		//				i.fas.fa-angle-down
+		//			.mmensmenu
+		//				.mmensmenu-in
+		//					.hmenu__menu
+		//						.hmenu__column
+		//							.hmenu__title Casuals
+		//							a(href='#').hmenu__link Jackets
+		//							a(href='#').hmenu__link Hoodies & Sweatshirts
+		//							a(href='#').hmenu__link Polo Shirts
+		//							a(href='#').hmenu__link Sportswear
+		//							a(href='#').hmenu__link Trousers & Chinos
+		//							a(href='#').hmenu__link T-Shirts
+		//						.hmenu__column
+		//							.hmenu__title format
+		//							a(href='#').hmenu__link Jackets
+		//							a(href='#').hmenu__link Shirts
+		//							a(href='#').hmenu__link Suits
+		//							a(href='#').hmenu__link Trousers
+		//					.hmenu__banner
+		//						div autumn sale!
+		//						div to 50% off
+		//			a(href='#').mobile__link womens
+		//				i.fas.fa-angle-down
+		//			a(href='#').mobile__link the brand
+		//			a(href='#').mobile__link local stores
+		//			a(href='#').mobile__link.mbook look book
+		//				i.fas.fa-angle-down
+		//			.mbookmenu
+		//				.mbookmenu-in
+		//					.hmenu__menu
+		//						.hmenu__column
+		//							.hmenu__title our lookbooks
+		//							a(href='#').hmenu__link Latest Prost(mixed)
+		//							a(href='#').hmenu__link Men's Lookbook
+		//							a(href='#').hmenu__link Women's Lookbook
+		//						.hmenu__column
+		//							.hmenu__title your lookbook
+		//							a(href='#').hmenu__link View and Edit
+		//							a(href='#').hmenu__link Share
+		//							a(href='#').hmenu__link Delete
+		//					.hmenu__banner
+		//						div autumn sale!
+		//						div to 50% off
+//

@@ -1,7 +1,33 @@
 .intro {
+	position: relative;
 	height: 450px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+@media only screen and (max-width: 1279px) {
+	.intro {
+		height: 440px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.intro {
+		height: 330px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.intro {
+		height: 240px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.intro {
+		height: 215px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.intro {
+		height: 130px;
+	}
 }

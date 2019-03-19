@@ -1,0 +1,29 @@
+.introhome {
+	height: 810px;
+	position: relative;
+}
+@media only screen and (max-width: 1279px) {
+	.introhome {
+		height: 440px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.introhome {
+		height: 330px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.introhome {
+		height: 240px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.introhome {
+		height: 215px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.introhome {
+		height: 130px;
+	}
+}

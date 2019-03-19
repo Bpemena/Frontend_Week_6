@@ -23,3 +23,10 @@
 		margin-right: 0px;
 	}
 }
+@media only screen and (max-width: 599px) {
+	.topbar__cart {
+		padding: 0px;
+		height: 30px;
+		line-height: 30px;
+	}
+}

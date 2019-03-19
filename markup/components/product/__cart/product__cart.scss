@@ -30,7 +30,11 @@
 }
 @media only screen and (max-width: 479px) {
 	.product__cart {
+		width: 100%;
 		letter-spacing: 0;
 		font-size: 12px;
+		height: 40px;
+		line-height: 40px;
+		margin-bottom: 10px;
 	}
 }

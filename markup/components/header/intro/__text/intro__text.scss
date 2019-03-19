@@ -6,8 +6,20 @@
 	color: #fff;
 	margin-top: 30px;
 }
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 767px) {
 	.intro__text {
 		font-size: 24px;
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.intro__text {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.intro__text {
+		font-size: 14px;
 	}
 }

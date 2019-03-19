@@ -16,3 +16,13 @@
 		font-family: 'MontserratBold';
 	}
 }
+@media only screen and (max-width: 1023px) {
+	.hmenu__banner {
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.hmenu__banner {
+		font-size: 24px;
+	}
+}

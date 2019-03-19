@@ -18,27 +18,23 @@ $(document).ready(function(){
 	        $('.bookmenu').slideToggle('fast');
 	    }
 	);
+	$('.mbook').click(function(e) {
+	    	e.preventDefault();
+	        $('.mbookmenu').slideToggle('fast');
+	    }
+	);
+	$('.mmens').click(function(e) {
+	    	e.preventDefault();
+	        $('.mmensmenu').slideToggle('fast');
+	    }
+	);
 	$('.btn').click(function(e) {
 	    	e.preventDefault();
-	        $('.header__nav').slideToggle(500);
 	    if ($(document).width() < 600) {
+			$('.mobile').slideToggle(500);
 		} 
 		if ($(document).width() >= 600) {
+			$('.header__nav').slideToggle(500);
 		}
-	});
-	$('.navBtn').on('click',function(e){
-		e.preventDefault();
-		if ($(document).width() < 600) {
-			$('.nav').toggleClass('nav--active');
-			$('.darkening').toggleClass('darkening--active');
-		} 
-		if ($(document).width() >= 600) {
-			$('.header').slideToggle(400, function() {
-				if ($(this).is(':visible')) {
-					$(this).css('display', 'flex');
-				}
-			});
-		}
-
 	});
 });

@@ -1,3 +1,8 @@
 .product__share {
 	color: #8c8c8c;
 }
+@media only screen and (max-width: 479px) {
+	.product__share {
+		margin-top: 10px;
+	}
+}

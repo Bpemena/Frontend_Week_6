@@ -1,13 +1,24 @@
 .topbar__currency {
-	text-decoration: none;
 	display: inline-block;
 	height: 45px;
 	color: #777777;
 	line-height: 45px;
 	padding: 0px 20px;
 	transition: all 0.3s;
-	&:hover {
-		color: #fff;
-		background-color: #00c8c8;
+	div {
+		display: inline-block;
+		position: relative;
+		i {
+			position: absolute;
+			right: 5px;
+			line-height: 45px;
+		}
+	}
+}
+@media only screen and (max-width: 599px) {
+	.topbar__currency {
+		padding: 0;
+		height: 30px;
+		line-height: 30px;
 	}
 }

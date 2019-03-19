@@ -1,10 +1,31 @@
 .header__bg {
 	background-repeat: no-repeat;
 	background-position: bottom;
+	background-image: url('%=static=%assets/header/bg.png');
+}
+.header__homebg {
 	&--img1 {
+		background-repeat: no-repeat;
+		background-position: bottom;
 		background-image: url('%=static=%assets/header/hb1.png');
 	}
 	&--img2 {
+		background-repeat: no-repeat;
+		background-position: bottom;
 		background-image: url('%=static=%assets/header/hb2.png');
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.header__homebg {
+		&--img1, &--img2 {
+			background-size: 150%;
+		}
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.header__homebg {
+		&--img1, &--img2 {
+			background-size: 120%;
+		}
 	}
 }

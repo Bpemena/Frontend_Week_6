@@ -11,40 +11,112 @@
 	&:hover {
 		box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.14);
 		cursor: pointer;
-		.hgalleryitem__info{
+		.hgalleryitem__info, .hgalleryitem__front, .hgalleryitem__back{
 			opacity: 1;
 		}
 	}
-	&:nth-of-type(1) {order: 1;}
-	&:nth-of-type(2) {order: 2;}
-	&:nth-of-type(3) {order: 3;}
-	&:nth-of-type(4) {order: 4;}
-	&:nth-of-type(5) {order: 5;}
-	&:nth-of-type(6) {order: 6;}
 }
 @media only screen and (max-width: 1799px) {
 	.hgallery__item {
-		width: 24.5%;
+		width: 420px;
+		background-size: 420px;
 		&--width {
-			width: 49.5%;
+			width: 720px;
+			background-size: 720px;
+		}
+	}
+}
+@media only screen and (max-width: 1599px) {
+	.hgallery__item {
+		width: 360px;
+		height: 428px;
+		background-size: 360px;
+		&--width {
+			width: 660px;
+			background-size: 660px;
+		}
+	}
+}
+@media only screen and (max-width: 1439px) {
+	.hgallery__item {
+		width: 340px;
+		height: 404px;
+		background-size: 340px;
+		margin-bottom: 10px;
+		&--width {
+			width: 640px;
+			background-size: 640px;
+		}
+	}
+}
+@media only screen and (max-width: 1359px) {
+	.hgallery__item {
+		width: 310px;
+		height: 365px;
+		background-size: 310px;
+		&--width {
+			width: 610px;
+			background-size: 610px;
 		}
 	}
 }
 @media only screen and (max-width: 1279px) {
 	.hgallery__item {
-		width: 420px;
-		margin-bottom: 10px;
+		width: 310px;
+		background-size: 310px;
 		&--width {
 			width: 860px;
+			background-size: 860px;
 		}
 	}
 }
 @media only screen and (max-width: 1023px) {
 	.hgallery__item {
-		width: 360px;
+		width: 310px;
+		height: 369px;
+		background-size: 310px;
 		margin-bottom: 10px;
 		&--width {
-			width: 740px;
+			width: 590px;
+			background-size: 590px;
 		}
 	}
 }
+@media only screen and (max-width: 599px) {
+	.hgallery__item {
+		&--width {
+			width: 470px;
+			background-size: 470px;
+		}
+	}
+}
+@media only screen and (max-width: 479px) {
+	.hgallery__item {
+		&--width {
+			width: 310px;
+			height: 250px;
+			background-size: 310px;
+		}
+	}
+}
+// @media only screen and (max-width: 599px) {
+// 	.hgallery__item {
+// 		&--width {
+// 			width: 470px;
+// 			height: 380px;
+// 			background-size: 470px;
+// 		}
+// 	}
+// }
+// @media only screen and (max-width: 479px) {
+// 	.hgallery__item {
+// 		width: 260px;
+// 		height: 309px;
+// 		background-size: 260px;
+// 		&--width {
+// 			width: 310px;
+// 			height: 250px;
+// 			background-size: 310px;
+// 		}
+// 	}
+// }

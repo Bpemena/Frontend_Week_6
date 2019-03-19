@@ -6,12 +6,13 @@
 }
 @media only screen and (max-width: 1279px) {
 	.product__column {
-		width: 49.5%;
+		width: 100%;
 		height: 670px;
 	}
 }
 @media only screen and (max-width: 1023px) {
 	.product__column {
 		width: 100%;
+		height: auto;
 	}
 }

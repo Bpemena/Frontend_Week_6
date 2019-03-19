@@ -1,0 +1,39 @@
+.selectinner {
+	position: relative;
+	i {
+		position: absolute;
+		text-align: center;
+		color: #989898;
+		width: 34px;
+		height: 35px;
+		text-align: center;
+		line-height: 35px;
+		right: 0;
+		pointer-events: none;
+	}
+	.i-up {
+		right: 0;
+		top: 0;
+		height: 17px;
+		line-height: 17px;
+		border-left: 1px solid rgb(231, 231, 231);
+		border-bottom: 1px solid rgb(231, 231, 231);
+		pointer-events: auto;
+	}
+	.i-down {
+		right: 0;
+		bottom: 0;
+		height: 17px;
+		line-height: 17px;
+		border-left: 1px solid rgb(231, 231, 231);
+		pointer-events: auto;
+	}
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+

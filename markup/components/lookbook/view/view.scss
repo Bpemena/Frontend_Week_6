@@ -7,11 +7,43 @@
 @media only screen and (max-width: 2049px) {
 	.view {
 		padding: 0 5px;
+		margin-bottom: 100px;
+	}
+}
+@media only screen and (max-width: 1919px) {
+	.view {
+		margin-bottom: 60px;
+	}
+}
+@media only screen and (max-width: 1359px) {
+	.view {
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (max-width: 1279px) {
+	.view {
+		margin-bottom: 30px;
+		justify-content: center;
 	}
 }
 @media only screen and (max-width: 1279px) {
 	.view {
 		justify-content: space-around;
 		margin-bottom: 60px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.view {
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.view {
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.view {
+		margin-bottom: 10px;
 	}
 }

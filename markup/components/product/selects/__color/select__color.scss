@@ -1,0 +1,19 @@
+.select__color {
+	position: relative;
+	width: 170px;
+	height: 35px;
+	font-family: 'MontserratLight';
+	font-size: 13px;
+	border: 1px solid rgb(231, 231, 231);
+	color: #989898;
+	appearance: none;
+	padding-left: 10px;
+	&:focus {
+		outline: none;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.select__color {
+		width: 100%;
+	}
+}

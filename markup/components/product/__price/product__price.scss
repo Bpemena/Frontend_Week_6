@@ -6,3 +6,8 @@
 		width: 1px;
 	}
 }
+@media only screen and (max-width: 479px) {
+	.product__price {
+		margin-top: 20px;
+	}
+}

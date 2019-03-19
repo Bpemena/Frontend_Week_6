@@ -33,4 +33,11 @@ $(document).ready(function(){
 		$('.product__slide.product__slide--curry').css('display','flex')
 	})
 
+	$('.i-up').click(function() {
+		$('.select__qty').val(+$('.select__qty').val() + 1);
+	});
+	$('.i-down').click(function() {
+		$('.select__qty').val($('.select__qty').val() - 1);
+	});
+
 });

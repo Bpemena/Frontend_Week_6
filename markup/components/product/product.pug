@@ -2,7 +2,7 @@
 	.product__content
 		.product__slider
 			img(src='%=static=%img/assets/product/img.png' alt='default size').product__slide.product__slide--curry
-			img(src='%=static=%img/assets/product/zoomimg.png' alt='zoom').product__slide.
+			img(src='%=static=%img/assets/product/zoomimg.png' alt='zoom').product__slide
 			.product__controls
 				a(href='#').product__prev
 					i.fas.fa-angle-left
@@ -51,7 +51,7 @@
 				span #499577
 			.product__tags
 				|TAGS: 
-				span Classic, Casual,V-neck, Loose
+				span Classic, Casual, V-neck, Loose
 			.product__text
 				|Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. 
 				|Donec pulvinar tempor lorem a pretium justo interdum.
@@ -60,6 +60,33 @@
 				li.product__li Casual fit
 				li.product__li 100% Cotton
 				li.product__li Free shipping 4 days delivery
+			.selects
+				.select
+					.select__title color
+					.selectinner
+						select(name='color').select__color
+							option(value='') Select Color
+							option(value='') Blue
+							option(value='') Gray
+							option(value='') Yellow
+							option(value='') Pink
+						i.fas.fa-angle-down
+				.select
+					.select__title size
+					.selectinner
+						select(name='size').select__size
+							option(value='') Select Size
+							option(value='') 10
+							option(value='') 20
+							option(value='') 30
+							option(value='') 40
+						i.fas.fa-angle-down
+				.select
+					.select__title qty
+					.selectinner
+						input(type='number' name='qty' value='1' min='1' max='10').select__qty
+						i.fas.fa-angle-up.i-up
+						i.fas.fa-angle-down.i-down
 			.product__buttons
 				a(href='#').product__cart
 					i.fas.fa-shopping-cart
@@ -70,7 +97,7 @@
 					|&nbsp;
 					|add to lookbook
 			a(href='#').product__compare
-
+				i.fas.fa-exchange-alt
 				|add to compare
 	.data
 		.data__links

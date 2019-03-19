@@ -11,6 +11,11 @@
 @media only screen and (max-width: 1023px) {
 	.header__content{
 		flex-wrap: wrap;
-		height: 80px;
+		height: 60px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.header__content{
+		height: 40px;
 	}
 }
